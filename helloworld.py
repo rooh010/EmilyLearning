@@ -1,6 +1,12 @@
 # simple print statement
 print("hello world")
 
+somevariable = "hello variables!"
+
+print(somevariable)
+
+print("\n")
+
 
 
 # function
