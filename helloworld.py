@@ -29,22 +29,29 @@ class GradeBook:
     def gradefunction(self):
         print("my name is " + self.name + " and my grade is " + str(self.grade))
 
+    def namelength(self):
+        a = len(self.name)
+        print("Length of name is " + str(a))
+
 grade1 = GradeBook("Emily", "A+")
+
+grade1.name = "Emily F"
+
 grade1.gradefunction()
 
 
+#new line
+print("\n")
 
-# Python program to  
-# demonstrate return statement  
-  
+grade1.namelength()
+
+print("\n")
+
+# return statement    
 def add(a, b): 
-  
-    # returning sum of a and b 
     return a + b 
   
 def is_true(a): 
-  
-    # returning boolean of a 
     return bool(a) 
   
 # calling function 
@@ -52,6 +59,6 @@ res = add(2, 3)
 print("Result of add function is {}".format(res)) 
   
 res = is_true(2<5) 
-print("\nResult of is_true function is {}".format(res)) 
+print("\nResult of is_true function is " + str(res)) 
 
 
