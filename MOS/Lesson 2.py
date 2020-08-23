@@ -1,0 +1,13 @@
+import turtle
+t=turtle.Pen()
+t.pencolor ("blue")
+t.left(70)
+t.forward(60)
+t.left(70)
+t.forward(60)
+t.left(70)
+t.forward(60)
+t.left(70)
+t.forward(60)
+t.left(80)
+t.forward(90)
