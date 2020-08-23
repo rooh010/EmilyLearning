@@ -18,3 +18,18 @@ def printme2 (str):
 printme("test")
 
 printme2("test2")
+
+
+# class
+class GradeBook:
+    def __init__(self, name, grade):
+        self.name = name
+        self.grade = grade
+
+    def gradefunction(self):
+        print("my name is " + self.name + " and my grade is " + str(self.grade))
+
+grade1 = GradeBook("Emily", "A+")
+grade1.gradefunction()
+
+
